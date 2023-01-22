@@ -1,4 +1,4 @@
-//import { StatusBar } from 'expo-status-bar';
+
 import { StyleSheet, TextInput, View, Button } from 'react-native';
 import React, { useState } from 'react';
 import { Text } from 'react-native';
@@ -67,10 +67,6 @@ const styles = StyleSheet.create({
   buttons: {
     flexDirection: 'row',
     marginTop: 10
-  },
-  numpad: {
-    flex: 3,
-    flexDirection: 'row'
   }
 });
 
