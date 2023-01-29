@@ -32,7 +32,6 @@ const pressedMiinus =()=>{
   setData([...data, {key: text}]);
     
 };
-console.log(data);
 
 return(
     <View style={styles.container}>
