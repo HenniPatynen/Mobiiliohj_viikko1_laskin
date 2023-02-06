@@ -75,7 +75,6 @@ return(
         title= "History"
         color={'purple'}
         onPress={()=> navigation.navigate('historia', {data})}
-        //onPress={()=> this.props.navigation.navigate('historia', {data})}
         />
      </View>
         
@@ -110,4 +109,5 @@ const styles = StyleSheet.create({
 
 });
 
+        //onPress={()=> this.props.navigation.navigate('historia', {data})}
 
